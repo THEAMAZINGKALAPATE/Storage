@@ -1,0 +1,36 @@
+// Yeet
+#include <iostream>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	float n1, n2, n3, n4, n5, sum, average;
+
+	cout << "Enter n1" << endl;
+	cin >> n1;
+	cout << "Enter n2" <<endl;
+	cin >> n2;
+	cout << "Enter n3" <<endl;
+	cin >> n3;
+	cout << "Enter n4" <<endl;
+	cin >> n4;
+	cout << "Enter n5" <<endl;
+	cin >> n5;
+
+	sum = n1 + n2 + n3 + n4 + n5;
+		cout << "The sum is " << sum << endl;
+	average = sum / 5;
+	cout << "The average is " << average << endl;
+	
+	
+	cout << "Int n1 " << static_cast <int> (n1) << endl;
+	cout << "Int n2 " << static_cast <int> (n2) << endl;
+	cout << "Int n3 " << static_cast <int> (n3) << endl;
+	cout << "Int n4 " << static_cast <int> (n4) << endl;
+	cout << "Int n5 " << static_cast <int> (n5) << endl;
+	_getch();
+	return 0;
+}
